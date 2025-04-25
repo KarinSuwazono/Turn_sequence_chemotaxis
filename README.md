@@ -43,9 +43,7 @@ The `All_codes_for_figures_250425.ipynb` Jupyter Notebook can be readily execute
 
 1.  **Open in Colaboratory:** Click on the following badge to open the notebook directly in Google Colaboratory:
 
-    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KarinSuwazono/Turn_sequence_chemotaxis/blob/main/All_codes_for_figures_250425.ipynb)
-
-    *(Replace the link in the badge with the actual URL of your notebook file on GitHub.)*
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/KarinSuwazono/Turn_sequence_chemotaxis/blob/main/All_codes_for_figures_250425.ipynb](https://github.com/KarinSuwazono/Turn_sequence_chemotaxis/blob/main/Codes/All_codes_for_figures_250425.ipynb))
 
 2.  **Data Access:** Follow the instructions in the [Usage in Google Colaboratory](#usage-in-google-colaboratory) section to clone the repository and pull the necessary data files (including those managed by Git LFS) into the Colaboratory environment.
 
