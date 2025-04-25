@@ -36,18 +36,21 @@ The primary code file for generating the figures is:
 
 This Jupyter Notebook contains all the necessary code to reproduce the figures presented in the paper.
 
-## Usage in Google Colaboratory
 
-To run the code and reproduce the figures using Google Colaboratory, please follow these steps:
+## Running the Code
 
-1.  **Open the Jupyter Notebook in Google Colaboratory:**
-    Navigate to [Google Colaboratory](https://colab.research.google.com/) in your web browser and open the `All_codes_for_figures_250425.ipynb` file from this repository. You can upload the notebook file directly to Colaboratory.
+The `All_codes_for_figures_250425.ipynb` Jupyter Notebook can be readily executed using Google Colaboratory, a free online Jupyter Notebook environment that requires no setup.
 
-2.  **Upload the Data Folder:**
-    In Google Colaboratory, upload the entire `Data` folder from this repository to the `/content/` directory. You can typically do this by dragging and dropping the folder into the file browser on the left side of the Colaboratory interface.
+1.  **Open in Colaboratory:** Click on the following badge to open the notebook directly in Google Colaboratory:
 
-3.  **Run the Notebook:**
-    Execute all cells in the `All_codes_for_figures_250425.ipynb` notebook. The code is written to load the data files from the `/content/Data/` directory.
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KarinSuwazono/Turn_sequence_chemotaxis/blob/main/All_codes_for_figures_250425.ipynb)
+
+    *(Replace the link in the badge with the actual URL of your notebook file on GitHub.)*
+
+2.  **Data Access:** Follow the instructions in the [Usage in Google Colaboratory](#usage-in-google-colaboratory) section to clone the repository and pull the necessary data files (including those managed by Git LFS) into the Colaboratory environment.
+
+3.  **Execute Cells:** Once the data is accessible, you can execute the cells in the notebook to reproduce the figures.
+
 
 4.  **Output:**
     **The generated figures will be saved in the `/content/Figures/` directory within the Colaboratory environment.**
