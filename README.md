@@ -4,29 +4,8 @@ This repository contains the data and code used to generate the figures for the 
 
 ## Data
 
-All necessary data files for reproducing the figures are located in the `Data` directory. Large data files within this directory are managed using **Git Large File Storage (LFS)**.
-
-**Important:** To ensure proper access to these large data files, please follow the instructions below *before* running the code.
-
-### Git LFS Installation and Setup
-
-1.  **Install Git LFS:**
-    If you don't have Git LFS installed, please install it. You can find installation instructions for your operating system on the [Git LFS website](https://git-lfs.com/). For example, on macOS using Homebrew, you can use:
-    ```bash
-    brew install git-lfs
-    ```
-
-2.  **Initialize Git LFS for this repository:**
-    After installing Git LFS, navigate to the root directory of this repository in your terminal and run:
-    ```bash
-    git lfs install
-    ```
-
-3.  **Download the tracked files:**
-    To download the large data files managed by LFS, run the following command in the repository's root directory:
-    ```bash
-    git lfs pull
-    ```
+All necessary data files for reproducing the figures are located in the `Data` directory.
+(Large data files within this directory are managed using **Git Large File Storage (LFS)**.)
 
 ## Code
 
@@ -45,20 +24,7 @@ The `All_codes_for_figures_250425.ipynb` Jupyter Notebook can be readily execute
 
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KarinSuwazono/Turn_sequence_chemotaxis/blob/main/Codes/All_codes_for_figures_250425.ipynb)
 
-3.  **Data Access:** Follow the instructions in the [Usage in Google Colaboratory](#usage-in-google-colaboratory) section to clone the repository and pull the necessary data files (including those managed by Git LFS) into the Colaboratory environment.
+2.  **Execute Cells:** Simply execute all the cells in the notebook, and the necessary data will be automatically loaded, and all the figures will be generated.
 
-4.  **Execute Cells:** Once the data is accessible, you can execute the cells in the notebook to reproduce the figures.
-
-
-5.  **Output:**
+3.  **Output:**
     **The generated figures will be saved in the `/content/Figures/` directory within the Colaboratory environment.**
-
-
-## Dependencies
-
-All necessary Python libraries and software dependencies are imported within the `All_codes_for_figures_250425.ipynb` notebook. Please refer to the import statements at the beginning of the notebook for a complete list of required packages.
-
-If you encounter any `ModuleNotFoundError` in Google Colaboratory, it indicates that a required library is not installed in the environment. You can typically install missing libraries using `pip` within the Colaboratory notebook itself. For example:
-
-```python
-!pip install missing_library_name
