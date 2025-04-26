@@ -1,6 +1,6 @@
 # Turn_sequence_chemotaxis
 
-This repository contains the data and code used to generate the figures for the paper.
+This repository contains the data and code used to generate the figures for the paper 'Dissection of behavioral components and the role of omega/delta turns for the chemotaxis of _C. elegans_'.
 
 ## Data
 
